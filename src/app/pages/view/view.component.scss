@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    .btn{
+        position: absolute;
+        top: 80px;
+        left: 30px;
+    }
+
+    .view-grid{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

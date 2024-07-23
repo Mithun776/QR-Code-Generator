@@ -1,0 +1,30 @@
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.header {
+    background-color: #283098;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    // border-radius: 0.25rem;
+}
+
+.footer {
+    background-color: #f3f4f6;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+}

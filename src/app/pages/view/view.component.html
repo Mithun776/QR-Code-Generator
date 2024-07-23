@@ -1,0 +1,22 @@
+<main>
+    <div class="btn">
+        <button routerLink="/codes" type="button" class="rounded-md bg-indigo-600 text-white px-3 py-2">
+            Return
+        </button>
+    </div>
+
+    <div class="view-grid">
+        <div class="space-y-12">
+            <div class="border-b border-gray-900/10 pb-6">
+                <h2 class="text-center text-3xl font-semibold leading-7 text-gray-900">
+                    {{myCode.name}}
+                </h2>
+
+            </div>
+        </div>
+
+        <div>
+            <qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        </div>
+    </div>
+</main>
